@@ -11,7 +11,7 @@ shinyUI(
                         submitButton("Submit")
                 ),
                 mainPanel(
-                        h3("The variation of mileage versus relevant variables for the training dataset "mtcars" from base R package is presented here"),
+			h2("This application predicts the mileage of a car based on the four variables shown on the left panel. It uses 'mtcars' dataset for training the model. In order to used the application, please provide the requisite details on the left panel and observe the results at the bottom of this page.")    			h4("The variation of mileage versus relevant variables for the training dataset "mtcars" from base R package is presented here"),
                         plotOutput('Pairs'),
                         h2("Results of prediction"),
                         h4("The no. of cylinders, displacement, weigth and horsepower entered by you are "),
