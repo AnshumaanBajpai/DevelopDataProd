@@ -1,9 +1,15 @@
-This web application can be used to predict the mileage of a car that the user is planning to buy or is using. The inputs needed for prediction are 
+This web application can be used to predict the mileage of a car that the user 
+is planning to buy or is using. The inputs needed for prediction are 
 1) Number of cylinders
 2) Engine size
 3) Car Weight
 4) Horse Power
 
-The prediction is based on the observations from the mtcars dataset available in the base R package. It uses the data from mtcars and fits a linear model to the mileage as a function of the input variables presented above.
+The prediction is based on the observations from the mtcars dataset available 
+in the base R package. It uses the data from mtcars and fits a linear model to
+the mileage as a function of the input variables presented above.
 
-It generates two ouputs. First one is a paired plot to give an overview of how the mileage varies as a function of the variables in the training dataset for the linear model. The second output is a prediction of the mileage for the input variables along with a 95% confidence interval for the prediction.
+It generates two ouputs. First one is a paired plot to give an overview of how
+the mileage varies as a function of the variables in the training dataset for 
+the model. The second output is a prediction of the mileage for the input 
+variables along with a 95% confidence interval for the prediction.
